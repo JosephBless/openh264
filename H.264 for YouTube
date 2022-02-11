@@ -1,0 +1,28 @@
+OpenH264
+OpenH264 is a codec library which supports H.264 encoding and decoding. It is suitable for use in real time applications such as WebRTC. See http://www.openh264.org/ for more details.
+
+Encoder Features
+Constrained Baseline Profile up to Level 5.2 (Max frame size is 36864 macro-blocks)
+Arbitrary resolution, not constrained to multiples of 16x16
+Rate control with adaptive quantization, or constant quantization
+Slice options: 1 slice per frame, N slices per frame, N macroblocks per slice, or N bytes per slice
+Multiple threads automatically used for multiple slices
+Temporal scalability up to 4 layers in a dyadic hierarchy
+Simulcast AVC up to 4 resolutions from a single input
+Spatial simulcast up to 4 resolutions from a single input
+Long Term Reference (LTR) frames
+Memory Management Control Operation (MMCO)
+Reference picture list modification
+Single reference frame for inter prediction
+Multiple reference frames when using LTR and/or 3-4 temporal layers
+Periodic and on-demand Instantaneous Decoder Refresh (IDR) frame insertion
+Dynamic changes to bit rate, frame rate, and resolution
+Annex B byte stream output
+YUV 4:2:0 planar input
+Decoder Features
+Constrained Baseline Profile up to Level 5.2 (Max frame size is 36864 macro-blocks)
+Arbitrary resolution, not constrained to multiples of 16x16
+Single thread for all slices
+Long Term Reference (LTR) frames
+Memory Management Control Operation (MMCO)
+Reference picture list modification
